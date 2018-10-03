@@ -154,7 +154,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 3500 2550 3500
 Wire Wire Line
-	1300 4450 2550 4450
+	950  4450 2550 4450
 Wire Wire Line
 	2450 4550 2550 4550
 Connection ~ 2450 2400
@@ -243,12 +243,12 @@ Wire Wire Line
 Wire Wire Line
 	1200 3200 1200 2800
 Wire Wire Line
-	1200 2800 3800 2800
+	900  2800 3800 2800
 Connection ~ 3800 2800
 Wire Wire Line
 	1200 3700 1200 3850
 Wire Wire Line
-	1200 3850 3850 3850
+	1000 3850 3850 3850
 Connection ~ 3850 3850
 $Comp
 L +5V #PWR01
@@ -302,4 +302,27 @@ Wire Wire Line
 	3650 4450 4250 4450
 Wire Wire Line
 	3650 4550 4250 4550
+Wire Wire Line
+	900  3550 1000 3550
+Wire Wire Line
+	1000 3550 1000 3850
+Connection ~ 1200 2800
+Wire Wire Line
+	950  3350 950  4450
+Connection ~ 1300 4450
+$Comp
+L Conn_01x03 J1
+U 1 1 5BB4D6C4
+P 700 3450
+F 0 "J1" H 700 3650 50  0000 C CNN
+F 1 "Conn_01x03" H 700 3250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 700 3450 50  0001 C CNN
+F 3 "" H 700 3450 50  0001 C CNN
+	1    700  3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3350 900  3350
+Wire Wire Line
+	900  2800 900  3450
 $EndSCHEMATC
